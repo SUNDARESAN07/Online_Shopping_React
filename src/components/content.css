@@ -1,0 +1,11 @@
+.body{
+    align-items: center;
+    flex-direction: column;
+    min-width: fit-content;
+    display: flex;
+    max-height: fit-content;
+    background-image: linear-gradient(to right, #719ef8, #a623e2,#23ace2);
+     
+
+}
+
