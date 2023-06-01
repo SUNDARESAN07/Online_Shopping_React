@@ -40,7 +40,7 @@ export default function ShoppingCart() {
         var i = 0;
         var l = cartItems.length;
         console.log(l);
-        cartItems.map((o) => {
+        cartItems.forEach((o) => {
             const newo = o.order;
             const remaining = o.order.quantity - o.count;
             newo.quantity = remaining;
